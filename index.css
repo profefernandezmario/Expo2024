@@ -2,46 +2,71 @@ body {
     /* background-color: #f8f9fa; Color de fondo general */
     background-color: rgba(0, 0, 0, 0.856);
 }
+
 .header {
-    background-color: #007bff; /* Color de fondo del header */
-    color: white; /* Color del texto del header */
-    padding: 10px 20px; /* Espaciado interno */
+    background-color: #007bff;
+    /* Color de fondo del header */
+    color: white;
+    /* Color del texto del header */
+    padding: 5px 5spx;
+    /* Espaciado interno */
 }
+
 .header .navbar-brand {
-    font-size: 1.5rem; /* Tamaño de la marca */
+    font-size: 1.5rem;
+    /* Tamaño de la marca */
 }
+
 .card {
     position: relative;
     overflow: hidden;
-    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transiciones suaves */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    /* Transiciones suaves */
 }
+
 .card-bg {
     background-size: cover;
     background-position: center;
-    height: 200px; /* Altura fija para las tarjetas */
+    height: 200px;
+    /* Altura fija para las tarjetas */
 }
+
 .card-body {
     position: absolute;
     bottom: 0;
     left: 0;
     right: 0;
-    background: rgba(0, 0, 0, 0.5); /* Fondo semi-transparente para el texto */
+    background: rgba(0, 0, 0, 0.5);
+    /* Fondo semi-transparente para el texto */
     padding: 10px;
 }
+
 .card:hover {
-    transform: scale(1.05); /* Aumenta ligeramente el tamaño */
-    box-shadow: 0 8px 16px rgba(0,0,0,0.3); /* Sombra más intensa al hacer hover */
+    transform: scale(1.1);
+    /* Aumenta ligeramente el tamaño */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    /* Sombra más intensa al hacer hover */
 }
+
 .btn-custom {
-    background-color: #007bff; /* Color del botón */
-    color: white; /* Color del texto */
+    background-color: #007bff;
+    /* Color del botón */
+    color: whitesmoke;
+    /* Color del texto */
 }
+
 .btn-custom:hover {
-    background-color: #0056b3; /* Color al pasar el mouse 
+
+    color: white;
+    /* Color del texto */
+    background-color: #0056b3;
+    /* Color al pasar el mouse   */
+}
 
 footer {
     /* background-color: #343a40; Color de fondo del footer */
     /* color: white; Color del texto del footer */
-    padding: 10px 0; /* Espaciado vertical */
+    padding: 10px 0;
+    /* Espaciado vertical */
     /* height: 90px; */
 }
