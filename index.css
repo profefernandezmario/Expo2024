@@ -1,7 +1,6 @@
 body {
     /* background-color: #f8f9fa; Color de fondo general */
     background-color: rgba(0, 0, 0, 0.856);
-
 }
 
 .header {
@@ -11,11 +10,6 @@ body {
     /* Color del texto del header */
     padding: 5px 5spx;
     /* Espaciado interno */
-}
-
-.header .navbar-brand {
-    font-size: 1.5rem;
-    /* Tamaño de la marca */
 }
 
 .card {
@@ -57,7 +51,6 @@ body {
 }
 
 .btn-custom:hover {
-
     color: white;
     /* Color del texto */
     background-color: #0056b3;
@@ -70,7 +63,6 @@ footer {
     padding: 10px 0;
     /* Espaciado vertical */
     /* height: 90px; */
-
 }
 
 .reducir {
@@ -81,7 +73,6 @@ footer {
  /* fuente para el nombre de la escuela */
  /* <uniquifier>: Use a unique and descriptive class name */
  /* <weight>: Use a value from 100 to 1000 */
-
 .dm-sans-efp7 {
     font-family: "DM Sans", sans-serif;
     font-optical-sizing: auto; 
