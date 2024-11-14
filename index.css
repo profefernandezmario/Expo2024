@@ -1,6 +1,7 @@
 body {
     /* background-color: #f8f9fa; Color de fondo general */
     background-color: rgba(0, 0, 0, 0.856);
+
 }
 
 .header {
@@ -69,4 +70,16 @@ footer {
     padding: 10px 0;
     /* Espaciado vertical */
     /* height: 90px; */
+
+}
+
+ /* fuente para el nombre de la escuela */
+ /* <uniquifier>: Use a unique and descriptive class name */
+ /* <weight>: Use a value from 100 to 1000 */
+
+.dm-sans-efp7 {
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto; 
+    font-weight: 900;
+    font-style:italic;
 }
