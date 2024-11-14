@@ -73,6 +73,11 @@ footer {
 
 }
 
+.reducir {
+    background-size: cover; /* Ajusta la imagen para cubrir todo el contenedor */
+    background-position:center; /* Centra la imagen */
+}
+
  /* fuente para el nombre de la escuela */
  /* <uniquifier>: Use a unique and descriptive class name */
  /* <weight>: Use a value from 100 to 1000 */
