@@ -35,6 +35,34 @@
     <title>Índice de Sitios Web</title>
 </head>
 
+<style>
+      /* Imágenes grandes para pantallas grandes */
+    .img-grande {
+        width: 100%; /* Ocupa el 100% del contenedor */
+        max-width: 400px; /* Ancho máximo para pantallas grandes */
+        height: auto; /* Mantiene la proporción */
+    }
+
+    /* Imágenes pequeñas para pantallas pequeñas */
+    .img-pequena {
+        width: 100%; /* Ocupa el 100% del contenedor */
+        max-width: 150px; /* Ancho máximo para pantallas pequeñas */
+        height: auto; /* Mantiene la proporción */
+    }
+
+    @media (max-width: 768px) {
+        .img-grande {
+            display: none; /* Oculta imágenes grandes en pantallas pequeñas */
+        }
+    }
+
+    @media (min-width: 769px) {
+        .img-pequena {
+            display: none; /* Oculta imágenes pequeñas en pantallas grandes */
+        }
+    }
+</style>
+
 <body>
 
     <!-- Header -->
